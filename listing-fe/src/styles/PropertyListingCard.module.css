@@ -1,0 +1,163 @@
+.propertyCard {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  cursor: pointer;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+  height: 100%;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.image {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0 !important;
+}
+
+.statusBadge {
+  position: absolute !important;
+  top: 12px;
+  left: 12px;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  padding: 4px 12px !important;
+  border-radius: 999px !important;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.typeBadge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  padding: 4px 12px !important;
+  border-radius: 999px !important;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.body {
+  padding: 16px 18px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.title {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  line-height: 1.4;
+  margin: 0 !important;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2563eb;
+  white-space: nowrap;
+}
+
+.address {
+  font-size: 13px !important;
+  color: #6b7280 !important;
+  margin-bottom: 6px !important;
+}
+
+.description {
+  font-size: 13px !important;
+  color: #6b7280 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  margin-bottom: 0 !important;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  margin-top: 8px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.footerItem {
+  font-size: 13px;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #f9fafb;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.suburb {
+  margin-left: auto;
+  background: #eff6ff;
+  color: #2563eb;
+  border-color: #bfdbfe;
+}
+
+.cardDetail {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  width: 100%;
+}
+
+.imageDetail {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0 !important;
+}
+
+.imageWrapperDetail {
+  position: relative;
+}
+
+.bodyDetail {
+  padding: 24px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titleDetail {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  margin: 0 !important;
+}
+
+.priceDetail {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+  white-space: nowrap;
+}
+
